@@ -2,8 +2,8 @@ import pandas as pd
 import os
 from glob import glob
 
-input_folder = "DATA/admet_results/primary_ligands"
-output_file = "combined_admet.csv"
+input_folder = "DATA/admet_results/secondary_ligands/carnosic_acid"
+output_file = "combined_admet_sec_carnosicacid.csv"
 
 csv_files = glob(os.path.join(input_folder, "*.csv"))
 all_rows = []
